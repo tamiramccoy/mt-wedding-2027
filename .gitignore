@@ -1,0 +1,21 @@
+# Safety net: this repository is PUBLIC. Only encrypted pages and site config belong here.
+# Never commit guest data, email sources, notes or unencrypted pages.
+*.csv
+*.xlsx
+*.xls
+*.numbers
+*.mjml
+*.md
+!README.md
+*.txt
+!robots.txt
+*.json
+*.docx
+*.pdf
+*.zip
+src/
+site-src/
+drafts/
+.staticrypt.json
+.DS_Store
+Thumbs.db
